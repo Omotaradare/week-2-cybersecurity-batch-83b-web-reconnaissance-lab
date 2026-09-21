@@ -1,0 +1,13 @@
+ (kali㉿kali)-[~]
+└─$ dnsrecon -d colemancables.com
+2026-09-21T11:10:15.627504-0400 INFO Starting enumeration for domain: colemancables.com
+2026-09-21T11:10:15.630240-0400 INFO std: Performing General Enumeration against: colemancables.com...
+2026-09-21T11:10:19.010312-0400 ERROR No answer for DNSSEC query for colemancables.com
+2026-09-21T11:10:22.013089-0400 ERROR Exception "The DNS operation timed out." while resolving SOA record.
+2026-09-21T11:10:22.013924-0400 ERROR Error while resolving SOA while using 192.168.0.1 as nameserver.
+2026-09-21T11:10:28.054237-0400 INFO     A colemancables.com 217.160.0.135
+2026-09-21T11:10:28.054443-0400 INFO     AAAA colemancables.com 2001:8d8:100f:f000::26e
+2026-09-21T11:10:43.082930-0400 INFO Enumerating SRV Records
+2026-09-21T11:11:19.172899-0400 ERROR No SRV Records Found for colemancables.com
+2026-09-21T11:11:19.173272-0400 INFO Completed enumeration for domain: colemancables.com
+
